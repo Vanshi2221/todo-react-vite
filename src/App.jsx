@@ -13,7 +13,15 @@ function App() {
         onChange={(e) => setText(e.target.value)}
         placeholder="Enter a task"
       />
-      <button>Add</button>
+      <button
+        onClick={() => {
+          if (!text.trim()) return;
+          setTodos([...todos, text]);
+          setText("");
+        }}
+      >
+        Add
+      </button>
 
       <ul>
         {todos.map((todo, index) => (
