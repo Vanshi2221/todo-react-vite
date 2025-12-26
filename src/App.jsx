@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1>our Todo App</h1>
+      <h1>Best Todo App</h1>
 
       <input
         value={text}
