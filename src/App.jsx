@@ -20,7 +20,7 @@ function App() {
           setText("");
         }}
       >
-        Add
+        Add Todo
       </button>
 
       <ul>
